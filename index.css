@@ -360,3 +360,517 @@
         display: none;
     }
 }
+
+/* Control style of top and bottom of all webpages */
+
+/* general */
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background: #eef2f3;
+}
+
+.clear-floats {
+    float: both;
+}
+
+/* navigation */
+nav {
+    width: 100%; 
+    height: 90px; 
+    background: #e4e3e3;
+    display: flex;
+    color: #696969;
+    top: 0;
+    position: fixed;
+    z-index: 99999;
+    border-bottom: 2px solid #000000;
+    transition: all ease .5s;
+}
+
+nav.shrink {
+    height: 75px;
+    transition: all ease .5s;
+}
+
+.logoHeading { 
+    width: 10%; 
+    height: 100px; 
+    padding-left: 10px;
+    float: left;
+}
+
+header nav h1 {
+    width:35%;
+    line-height: 80px;
+    transition: all ease .5s;
+    float: left;
+}
+
+.menu {
+    width: 50%;
+    height: 100px;
+}
+
+.menu ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    transition: all ease .5s;
+}
+
+.menu ul li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #696969;
+}
+
+.menu a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+/* drop-down menu */
+.dropbtn {
+    padding: 16px;
+    border: none;
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #e4e3e3;
+  }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: #e4e3e3;
+}
+.dropdown li {
+    list-style: none;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #eef2f3;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {color: #b20a2c} 
+
+.mobile-menu {
+    display: none;
+}
+
+/* top of pages */
+.top {
+    display: flex;
+    width: 100%;
+    height: 350px;
+    text-align: center;
+    background: linear-gradient(90deg, #cc1f42, #75081e);
+}
+
+/* top info */
+.top-info {
+    width: 100%;
+    height: 200px;
+    color: #e4e3e3;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 7.5em;
+}
+    
+.top-info h1 {
+    padding: 0.8em;
+    font-size: 4em;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+.top-info button {
+    color: #e4e3e3;
+    border: #b20a2c;
+    border-style: solid;
+    border-width: 2px;
+    display: absolute;
+    background: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transform: rotate(0deg) skewX(0deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -10px 10px 5 rgba(0,0,0,0.5);
+}
+
+.top-info:before {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    width: 5px;
+    height: 100%;
+    background: #e4e3e3;
+    transform: rotate(0deg skewY(-45deg));
+    transform: 0.5s;
+}
+    
+.top-info:after {
+    content: '';
+    position: absolute;
+    top: 5px;
+    left: -5px;
+    width: 5px;
+    height: 100%;
+    background: #e4e3e3;
+    transform: rotate(0deg skewY(-45deg));
+    transform: 0.5s;
+}
+
+.top-info button:hover {
+    transform: rotate(0deg) skew(-2.5deg, -2.5deg) translate(0px,0px);
+    background: linear-gradient(90deg, #fffbd5, #b20a2c);
+}
+
+/* bottom of pages */
+.directory {
+    background-color: #e4e3e3;
+    color: #696969;
+    border-bottom: #000000 solid 2px;
+    border-top: #000000 solid 2px;
+}
+
+/* clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* create three equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    text-align: center;
+    height: 125px; 
+}
+
+.column ul li{
+    align-items: center;
+    text-transform: uppercase; 
+    padding-top: 0.5em;
+}
+
+.directory a {
+    text-decoration: none;
+    color: #696969;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 2px;
+}
+
+.directory a:hover {
+    opacity: 0.5;
+}
+
+.directory h1 {
+    padding-top: 0.5em;
+    padding-bottom: 0.25em;
+    text-decoration: underline;
+}
+
+.directory ul {
+    list-style-type: none;
+}
+
+.contactUs {
+    text-align: center;
+    padding-top: 3.5em;
+    padding-bottom: 10px;
+    font-size: 1.25em;
+}
+
+.bpef {
+    font-weight: bold;
+}
+
+.contactUs img {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.contactUs a {
+    text-decoration: none;
+    font-size: 1em;
+    font-weight: 100;
+}
+
+.contactUs a:hover {
+    opacity: 0.5;
+    text-decoration: underline;
+}
+
+footer {
+    color: #ffffff; 
+    text-align: center;
+    background: linear-gradient(90deg, #cc1f42, #75081e);
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-style: italic;
+}
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+    /* navigation */
+    .logoHeading img {
+        width: 55px;
+        height: 55px;
+    }
+
+    nav{
+        height: 70px; 
+    }
+        
+    nav.shrink {
+        height: 55px;
+    }
+
+    .logoHeading{ 
+        height: 80px;
+        padding-left: 5px;
+    }
+
+    header nav h1{
+        line-height: 60px; 
+        font-size: 16px;
+    }
+
+    .menu{
+        height: 80px;
+    }
+
+    .menu ul{
+        height: 60px;
+    }
+
+    .menu ul li{
+        font-size: 12px;
+    }
+
+    /* bottom of pages */
+    .directory a {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .directory h1 {
+        padding-bottom: 2px;
+    }
+
+    .contactUs {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 1.25em;
+    }
+
+    .contactUs img {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .contactUs a {
+        font-size: 1em;
+        font-weight: 100;
+    }
+}
+
+/* phone */
+@media only all and (max-width: 768px) {
+    /* navigation  */
+    nav{
+        display: block;
+        width: 100%; 
+        height: 250px; 
+        top: 0;
+        position: fixed;
+        z-index: 99999;
+        transition: all ease .5s;
+    }
+    
+    nav.shrink {
+        height: 225px;
+        transition: all ease .5s;
+    }
+    
+    .logoHeading{ 
+        width: 25%; 
+        height: 50px;
+        margin: auto;
+        float: none;
+        display: block;
+    }
+    
+    header nav h1{
+        text-align: center;
+        width: 100%;
+        line-height: 40px; 
+        transition: all ease .5s;
+        float: none;
+        border-bottom: 2px solid #696969;
+    }
+
+    .menu {
+        display: none;
+    }
+    
+    .mobile-menu {
+        width: 100%;
+        height: 100px; 
+        display: block;       
+    }
+    
+    .mobile-menu ul{
+        width: 100%;
+        height: 80px;
+        display: block;
+        justify-content: space-around;
+        align-items: center;
+        transition: all ease .5s;
+    }
+    
+    .mobile-menu ul li{
+        padding-left: 10px;
+        list-style: none;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 2px solid #696969;
+        background-color: #cc1f42;
+    }
+    
+    .mobile-menu a {
+        text-decoration: none;
+        color: #ffffff;
+    }
+    
+    .mobile-menu li:hover {
+        background-color: #eca2b1;
+    }
+
+    /* bottom of pages */
+    .directory {
+        background-color: #e4e3e3;
+        color: #000000;
+        border-bottom: #000000 solid 2px;
+        border-top: #000000 solid 2px;
+    }
+    
+    /* clear floats after the columns */
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+    
+    /* create three equal columns that floats next to each other */
+    .column {
+        float: none;
+        width: 100%;
+        padding: 10px;
+        text-align: center;
+        height: 125px; 
+    }
+    
+    .column ul li{
+        align-items: center;
+        text-transform: uppercase; 
+    }
+    
+    .directory a {
+        text-decoration: none;
+        color: #000000;
+        font-size: 18px;
+        font-weight: bold;
+        padding-bottom: 2px;
+    }
+    
+    .directory a:hover {
+        opacity: 0.5;
+    }
+    
+    .directory h1 {
+        padding-top: 0.5em;
+        padding-bottom: 0.5em;
+        text-decoration: underline;
+    }
+    
+    .directory ul {
+        list-style-type: none;
+    }
+    
+    .contactUs {
+        text-align: center;
+        padding-top: 3em;
+        padding-bottom: 10px;
+        font-size: 1.25em;
+    }
+    
+    .bpef {
+        font-weight: bold;
+    }
+    
+    .contactUs img {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    
+    .contactUs a {
+        text-decoration: none;
+        font-size: 1em;
+        font-weight: 100;
+    }
+    
+    .contactUs a:hover {
+        opacity: 0.5;
+        text-decoration: underline;
+    }
+    
+    footer {
+        color: #ffffff; 
+        text-align: center;
+        background: linear-gradient(90deg, #cc1f42, #75081e);
+        padding-top: 10px;
+        padding-bottom: 5px;
+        font-style: italic;
+    }
+}
