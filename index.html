@@ -1,1 +1,232 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Erick Ruilova | Home</title>
+	
+	<link rel="stylesheet" type="text/css" href="../design/index.css">
+	<link rel="stylesheet" type="text/css" href="../design/slideshow.css">
+	<link rel="stylesheet" type="text/css" href="../design/BPEF.css">
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(window).scroll(function() {
+			if($(document).scrollTop() > 100) {
+				$('nav').addClass('shrink');
+			}
+			else {
+			$('nav').removeClass('shrink');
+			}
+		  });
+		});
+	</script>
+</head>
+
+<body>
+
+<header>
+	<nav>
+		<div class="logoHeading">
+			<img src="../logos/BPEF_gradientLogo.png" width="75px" height="75px">
+		</div>
+		<h1>Bridgeport Public Education Fund, Inc</h1>
+		<div class="menu">
+			<ul>
+				<li><a href="../index/index.html">Home</a></li>
+				<li>
+					<div class="dropdown">
+						<button class="dropbtn"><a href="../about-us/history.html">About Us</a></button>
+						<div class="dropdown-content">
+							<a href="../about-us/directors.html">Board of Directors</a>
+						</div>
+					</div>
+				</li>
+				<li>
+					<div class="dropdown">
+						<button class="dropbtn"><a href="../program-events/program.html">Programs</a></button>
+						<div class="dropdown-content">
+							<a href="../program-events/events.html">Events</a>
+						</div>
+					</div>
+				</li>
+                <li>
+					<div class="dropdown">
+						<button class="dropbtn"><a href="../contributors/contributors.html">Contributors</a></button>
+						<div class="dropdown-content">
+							<a href="../contributors/partners.html">Partners</a>
+						</div>
+					</div>
+				</li>
+                <li><a href="https://donatenow.networkforgood.org/1437426">Donate</a></li>
+			</ul>
+		</div>
+		<div class="mobile-menu">
+			<ul>
+				<a href="index.html"><li>Home</li></a>
+				<a href="../about-us/history.html"><li>History</li></a>
+				<a href="../about-us/directors.html"><li>Directors</li></a>
+				<a href="../program-events/program.html"><li>Programs</li></a>
+				<a href="../program-events/events.html"><li>Events</li></a>
+				<a href="../contributors/contributors.html"><li>Contributors</li></a>
+				<a href="../contributors/partners.html"><li>Partners</li></a>
+				<a href="https://donatenow.networkforgood.org/1437426"><li>Donate</li></a>
+			</ul>
+		</div>
+	</nav>
+</header>	
+
+<main>
+
+<section id="top">
+	<div id="top-left-info">
+		<img src="index-clip-art/cap.png">
+		<dl>
+			<br> <hr>
+			<dt>Mission</dt>
+			<dd>
+				The Birdgeport Public Education Fund, Inc. develops programs and mobilizes
+				the community for quality public education in Bridgeport. 
+			</dd>
+			<br> <hr>
+		</dl>
+	</div>
+	<div id="top-right-info">
+		<h1>Support <br> Bridgeport Public Education ...</h1>
+		<a href="https://donatenow.networkforgood.org/1437426"><button>DONATE NOW!</button></a>
+	</div>
+</section>
+
+<div id="clear-floats"></div>
+
+<div class="slideshow-container">
+
+	<!-- 23 slides -->
+	<div class="mySlides fade">
+		<img src="index-images/2017 Inspiration.jpg" width="100%" height="100%">
+	</div>
+
+	<div class="mySlides fade">
+		<img src="index-images/2016 Inspiration.jpg" width="100%" height="100%">
+	</div>
+
+	<div class="mySlides fade">
+		<img src="index-images/2015 Inspiration.jpg" width="100%" height="100%">
+	</div>
+
+</div>
+
+<div id="slideshow-replacement">
+	<img src="index-images/2017 Inspiration.jpg" width="100%" height="100%">
+</div>
+
+<div>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<section id="bottom">
+	<div id="bottom-left-info">
+	<hr>
+	<dl>
+		<dt>Goals</dt>
+		<dd>
+			<ul>
+				<li>Increase the community's involvement in and support for the Bridgeport public schools</li>
+				<li>Strengthen communication between the educational, civic and business constituencies</li>
+				<li>Deepen awareness of excellence in our schools</li>
+				<li>Encourage and reward teacher's outstanding efforts through support for classroom projects</li>
+				<li>Develop programs and opportunities which will enrich and improve public education in Bridgeport</li>
+			</ul>
+		</dd>
+	</dl>
+	<hr>
+	</div>
+	<div id="bottom-right-info"></div>
+</section>
+
+<div class="directory">
+	
+	<div class="row">
+		<div class="column">
+			<h1>ABOUT US</h1>
+			<ul>
+				<li><a href="../about-us/history.html">History</a></li>
+				<li><a href="../about-us/directors.html">Board of Directors</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<h1>PROGRAMS</h1>
+			<ul>
+				<li><a href="../program-events/program.html">Programs</a></li>
+				<li><a href="../program-events/events.html">Events</a></li>
+			</ul>
+		</div>
+		<div class="column">
+			<h1>CONTRIBUTORS</h1>
+			<ul>
+				<li><a href="../contributors/contributors.html">Contributors</a></li>
+				<li><a href="../contributors/partners.html">Partners</a></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="contactUs"> 
+		
+		<div class="logo"></div>
+		
+		<span class="bpef">The Bridgeport Public Education Fund, Inc.</span> <br>
+		446 University Avenue <br>
+		Bridgeport, CT 06604 <br>
+		<a href="https://www.facebook.com/BridgeportPublicEducationFund"><img src="../logos/facebook_logo.png" height="45" width="45" alt="Facebook Logo"></a>
+		<a href="https://twitter.com/bpefinc"><img src="../logos/twitter_logo.png" height="45" width="45" alt="Twitter Logo"></a>
+		<a href="https://www.instagram.com/bridgeportpubliceducationfund/"><img src="../logos/instagram_logo.png" height="45" width="45" alt="Instagram Logo"></a>
+		<a href="https://www.linkedin.com/company/bridgeport-public-education-fund"><img src="../logos/linkedIn_logo.png" height="45" width="45" alt="LinkedIn Logo"></a> <br>
+		BPEF: (203) 331-0551 <br>
+		MAACS: (203) 338-0517 <br>
+		Email: <a href="mailto:Fvillegas@bpef.org">Fvillegas@bpef.org</a> 
+	</div>
+
+</div>
+
+</main>
+
+<footer>
+	Copyright &copy; 2017 The Bridgeport Public Education Fund, Inc. <br>
+	All rights reserved. All content on the site is the property of The Bridgeport Public Education Fund, Inc. <br>
+</footer>
+
+<script>
+	
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+	var i;
+	var slides = document.getElementsByClassName("mySlides"); 
+	var dots = document.getElementsByClassName("dot");
+
+	for (i = 0; i < slides.length; i++) {
+		slides[i].style.display = "none";
+	}
+
+	slideIndex++;
+
+	if (slideIndex > slides.length) {
+		slideIndex = 1
+	}
+
+	for (i = 0; i < dots.length; i++) {
+		dots[i].className = dots[i].className.replace(" active", "");
+	}
+
+	slides[slideIndex-1].style.display = "block";  
+	dots[slideIndex-1].className += " active";
+
+	setTimeout(showSlides, 5000); // Change image every 5 seconds
+}
+</script>
+
+</body>
+</html>
