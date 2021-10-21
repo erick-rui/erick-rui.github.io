@@ -1,0 +1,22 @@
+{
+  "name": "erick-rui.github.io",
+  "version": "1.0.0",
+  "description": "You can use the [editor on GitHub](https://github.com/erick-rui/erick-rui.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.",
+  "main": "index.js",
+  "scripts": {
+    "scss": "node-sass --watch scss/ -o css/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/erick-rui/erick-rui.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/erick-rui/erick-rui.github.io/issues"
+  },
+  "homepage": "https://github.com/erick-rui/erick-rui.github.io#readme",
+  "dependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
