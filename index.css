@@ -85,8 +85,9 @@
 }
 
 #top-right-info button:hover {
-    transform: rotate(0deg) skew(-2.5deg, -2.5deg) translate(0px,0px);
-    background: linear-gradient(90deg, #fffbd5, #b20a2c);
+    background: linear-gradient(90deg, #41a1cb, #0a53b2);
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 20px #00000040;
 }
 
 /* for tablet mode */
@@ -313,7 +314,6 @@
     }
     
     #top-right-info button:hover {
-        transform: rotate(0deg) skew(-2.5deg, -2.5deg) translate(0px,0px);
         background: linear-gradient(90deg, #fffbd5, #b20a2c);
     }
 
