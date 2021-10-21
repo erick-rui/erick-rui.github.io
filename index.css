@@ -3,9 +3,9 @@
     display: flex;
     width: 100%;
     height: 50em;
-    background: linear-gradient(90deg, #cc1f42, #75081e);
+    background: #252627;
     text-align: center;
-    color: #e4e3e3;
+    color: #ffffff;
 }
 
 /* left side info */
@@ -48,7 +48,7 @@
 #top-right-info button {
     margin: 1.25em;
     color: #e4e3e3;
-    border: #b20a2c;
+    border: #0077B6;
     border-style: solid;
     border-width: 2px;
     display: absolute;
@@ -85,7 +85,7 @@
 }
 
 #top-right-info button:hover {
-    background: linear-gradient(90deg, #41a1cb, #0a53b2);
+    background: linear-gradient(90deg, #00B4D8, #0077B6);
     transform: translateY(-2px);
     box-shadow: 0px 5px 20px #00000040;
 }
@@ -384,13 +384,12 @@ body {
 nav {
     width: 100%; 
     height: 90px; 
-    background: #e4e3e300;
+    background: #ffffff00;
     display: flex;
     color: #696969;
     top: 0;
     position: fixed;
     z-index: 99999;
-    border-bottom: 2px solid #000000;
     transition: all ease .5s;
 }
 
