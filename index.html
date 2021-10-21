@@ -26,7 +26,7 @@
 
 <header>
 	<nav>
-		<h1>Erick Ruilova</h1>
+		<h1>Portfolio</h1>
 		<div class="menu">
 			<ul>
 				<li><a id="Home">Home</a></li>
@@ -47,10 +47,10 @@
 <main>
 
 <section id="top">
-	<div id="top-left-info">
+	<div id="left-info">
 		<img src="index-clip-art/cap.png">
 	</div>
-	<div id="top-right-info">
+	<div id="right-info">
 		<h1>Hi, <br> I'm Erick</h1>
 		<a ><button>CONTACT ME</button></a>
 	</div>
@@ -130,21 +130,38 @@
 			</ul>
 		</div>
 	</div>
-	
+	<div id="clear-floats"></div>
 	<div class="contactUs"> 
 		
-		<div class="logo"></div>
+		<div id="left-info">
+            <span class="bpef">The Bridgeport Public </span> <br>
+            446 University Avenue <br>
+            Bridgeport, CT 06604 <br>
+            BPEF: (203) 331-0551 <br>
+            MAACS: (203) 338-0517 <br>
+            Email: <a href="mailto:Fvillegas@bpef.org">Fvillegas@bpef.org</a> 
+        </div>
 		
-		<span class="bpef">The Bridgeport Public Education Fund, Inc.</span> <br>
-		446 University Avenue <br>
-		Bridgeport, CT 06604 <br>
-		<a href="https://www.facebook.com/BridgeportPublicEducationFund"><img src="../logos/facebook_logo.png" height="45" width="45" alt="Facebook Logo"></a>
-		<a href="https://twitter.com/bpefinc"><img src="../logos/twitter_logo.png" height="45" width="45" alt="Twitter Logo"></a>
-		<a href="https://www.instagram.com/bridgeportpubliceducationfund/"><img src="../logos/instagram_logo.png" height="45" width="45" alt="Instagram Logo"></a>
-		<a href="https://www.linkedin.com/company/bridgeport-public-education-fund"><img src="../logos/linkedIn_logo.png" height="45" width="45" alt="LinkedIn Logo"></a> <br>
-		BPEF: (203) 331-0551 <br>
-		MAACS: (203) 338-0517 <br>
-		Email: <a href="mailto:Fvillegas@bpef.org">Fvillegas@bpef.org</a> 
+
+        <div id="right-info">
+            <form action="action_page.php">
+          
+              <label for="name">First Name</label>
+              <input type="text" id="name" name="name" placeholder="Name..">
+
+              <label for="email">Email:</label>
+             <input type="email" id="email" name="email" placeholder="Email..">
+
+             <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Subject..">
+          
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div>
 	</div>
 
 </div>
