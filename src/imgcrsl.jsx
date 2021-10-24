@@ -1,6 +1,7 @@
 import range from 'lodash/range';
 import styled from 'styled-components';
-import ItemsCarousel from '../../src/ItemsCarousel';
+// @ts-ignore
+import ItemsCarousel from 'react-items-carousel';
 
 const noOfItems = 12;
 const noOfCards = 3;
