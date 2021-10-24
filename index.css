@@ -5,8 +5,7 @@
     height: 50em;
     background: #252627;
     text-align: center;
-    color: #ffffff;
-}
+    color: #ffffff;}
 
 /* left side info */
 #left-info {
@@ -15,18 +14,13 @@
     margin-top: 5em;
     margin-left: 2em;
     margin-right: 1em;
-    font-size: 1.5em;
-}
-
-#left-info dl dt {
-    font-weight: bold;
-    font-size: 1.75em;
-    padding: 0.5em;
-}
-
-#left-info dl dd {
-    font-style: italic;
-}
+    font-size: 1.5em;}
+    #left-info dl dt {
+        font-weight: bold;
+        font-size: 1.75em;
+        padding: 0.5em;}
+    #left-info dl dd {
+        font-style: italic;}
 
 /* right side info*/
 #right-info {
@@ -35,15 +29,12 @@
     padding-top: 7.5em;
     margin-top: 5em;
     margin-right: 2em;
-    margin-left: 1em;
-}
-
-#right-info h1{
-    padding: 0.8em;
-    font-size: 4em;
-    font-weight: bolder;
-    text-transform: uppercase;
-}
+    margin-left: 1em;}
+    #right-info h1{
+        padding: 0.8em;
+        font-size: 4em;
+        font-weight: bolder;
+        text-transform: uppercase;}
 
 #right-info button {
     margin: 1.25em;
@@ -112,27 +103,18 @@
     margin-left: 2em;
     margin-right: 1em;
     float: left;
-    width: 50%;
-}
-
-#bottom-left-info dl {
-    padding-top: 1em;
-    padding-bottom: 1em;
-}
-
-#bottom-left-info dl dt {
-    font-weight: bold;
-    font-size: 1.75em;
-}
-
-#bottom-left-info dl dd {
-    font-style: italic;
-}
-
-#bottom-left-info dl dd ul li {
-    list-style-type: none;
-    padding: 0.45em;
-}
+    width: 50%;}
+    #bottom-left-info dl {
+        padding-top: 1em;
+        padding-bottom: 1em;}
+        #bottom-left-info dl dt {
+            font-weight: bold;
+            font-size: 1.75em; }
+        #bottom-left-info dl dd {
+            font-style: italic;}
+            #bottom-left-info dl dd ul li {
+                list-style-type: none;
+                padding: 0.45em;}
 
 #bottom-right-info {
     float: right;
