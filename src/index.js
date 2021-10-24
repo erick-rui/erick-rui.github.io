@@ -1,7 +1,7 @@
 import { Carousel } from '@trendyol-js/react-carousel';
 import imgcrsl from './imgcrsl';
 import { Item } from './yourItem';
-import defaultExport from imgcrsl;
+import defaultExport from imgcrsl.js;
 
 const domContainer = document.querySelector('#carousel'); 
 ReactDOM.render(React.createElement(defaultExport),domContainer,);
