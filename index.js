@@ -3,6 +3,7 @@ import { Item } from './yourItem';
 
 ReactDOM.render(
 	<Carousel>
+        <Item />x
 		<div>
             <img src="images/placeholder.png" alt="" />
         </div>
