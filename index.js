@@ -22,5 +22,5 @@ ReactDOM.render(
             <img src="images/placeholder.png" alt="" />
         </div>
 	</Carousel>,
-	document.getElementById('root'),
+	document.getElementById('#carousel'),
 );
