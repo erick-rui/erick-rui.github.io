@@ -9,4 +9,4 @@ export class MyPage extends React.Component{
 }
 
 const domContainer = document.querySelector('#carousel'); 
-ReactDOM.render(<MyPage />,domContainer));
+ReactDOM.render(<MyPage />,domContainer);
