@@ -3,10 +3,24 @@ import { Item } from './yourItem';
 
 ReactDOM.render(
 	<Carousel>
-		<Item />
-		<Item />
-		<Item />
-		<Item />
+		<div>
+            <img src="images/placeholder.png" alt="" />
+        </div>
+        <div>
+            <img src="images/placeholder.png" alt="" />
+        </div>
+        <div>
+            <img src="images/placeholder.png" alt="" />
+        </div>
+        <div>
+            <img src="images/placeholder.png" alt="" />
+        </div>
+        <div>
+            <img src="images/placeholder.png" alt="" />
+        </div>
+        <div>
+            <img src="images/placeholder.png" alt="" />
+        </div>
 	</Carousel>,
 	document.getElementById('root'),
 );
