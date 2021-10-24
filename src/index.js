@@ -1,27 +1,9 @@
 import { Carousel } from '@trendyol-js/react-carousel';
+import imgcrsl from './imgcrsl';
 import { Item } from './yourItem';
+import defaultExport from imgcrsl;
 
 ReactDOM.render(
-	<Carousel>
-        <Item />x
-		<div>
-            <img src="images/placeholder.png" alt="" />
-        </div>
-        <div>
-            <img src="images/placeholder.png" alt="" />
-        </div>
-        <div>
-            <img src="images/placeholder.png" alt="" />
-        </div>
-        <div>
-            <img src="images/placeholder.png" alt="" />
-        </div>
-        <div>
-            <img src="images/placeholder.png" alt="" />
-        </div>
-        <div>
-            <img src="images/placeholder.png" alt="" />
-        </div>
-	</Carousel>,
+	React.createElement(defaultExport),
 	document.getElementById('#carousel'),
 );
