@@ -68,4 +68,4 @@ class AutoPlayCarousel extends React.Component {
 }
 
 const domContainer = document.querySelector('#carousel'); 
-ReactDOM.render(e(myButton), domContainer);
+ReactDOM.render(e(AutoPlayCarousel), domContainer);
