@@ -1,0 +1,145 @@
+
+/* Tablet */
+@media only screen and (max-width: 1024px) {
+    /* top of index */
+    body {
+        font-size: 10px;
+    }
+
+    #top {
+        height: 35em;
+    }
+
+    /* top left side info */
+    #left-info {
+        font-size: 1.25em;
+    }
+        
+    #left-info dl dt {
+        font-size: 1.75em;
+    }
+
+    #right-info h1{
+        font-size: 4em;
+    }
+
+    #top-left-info dl dt {
+        font-size: 1.35em;
+        padding: 0.35em;
+    }
+
+    #left-info img {
+        width: 250px;
+        height: 143px;
+    }
+
+    /* top right side info*/
+    #right-info {
+        padding: 0.35em;
+        padding-top: 5em;
+        margin: 3em;
+    }
+
+    #right-info h1{
+        font-size: 3.1em;
+    }
+
+    .slideshow-container {
+        display: none;
+    }
+
+    #slideshow-replacement {
+        display: block;
+    }
+  
+    #bottom {
+        height: 22.5em;
+    }
+
+    #bottom-left-info {
+        margin-top: 1.1em;
+        padding: 1em;
+    }
+
+    #bottom-left-info dl dt {
+        font-size: 1.35em;
+        padding: 0.5em;
+    }
+
+    #bottom-left-info dl dd ul li {
+        padding: 0.25em;
+    }
+
+    #bottom-right-info {
+        background-image: url(../images/placeholder.png);
+        background-position: 75% 75%; /* Center the image */
+        background-repeat: no-repeat; /* Do not repeat the image */
+        background-size: 50%; /* Resize the background image to cover the entire container */
+    }
+}
+
+
+/* tablet */
+@media only screen and (max-width: 1024px) {
+    /* navigation */
+    .logoHeading img {
+        width: 55px;
+        height: 55px;
+    }
+
+    nav{
+        height: 70px; 
+    }
+        
+    nav.shrink {
+        height: 55px;
+    }
+
+    .logoHeading{ 
+        height: 80px;
+        padding-left: 5px;
+    }
+
+    header nav h1{
+        line-height: 60px; 
+        font-size: 16px;
+    }
+
+    .menu{
+        height: 80px;
+    }
+
+    .menu ul{
+        height: 60px;
+    }
+
+    .menu ul li{
+        font-size: 12px;
+    }
+
+    /* bottom of pages */
+    .directory a {
+        font-size: 18px;
+        padding-bottom: 2px;
+    }
+
+    .directory h1 {
+        padding-bottom: 2px;
+    }
+
+    .contactUs {
+        padding-top: 5px;
+        padding-bottom: 10px;
+        font-size: 1.25em;
+    }
+
+    .contactUs img {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .contactUs a {
+        font-size: 1em;
+        font-weight: 100;
+    }
+}
