@@ -3,7 +3,5 @@ import imgcrsl from './imgcrsl';
 import { Item } from './yourItem';
 import defaultExport from imgcrsl;
 
-ReactDOM.render(
-	React.createElement(defaultExport),
-	document.getElementById('#carousel'),
-);
+const domContainer = document.querySelector('#carousel'); 
+ReactDOM.render(React.createElement(defaultExport),domContainer,);
