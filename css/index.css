@@ -152,17 +152,25 @@ input[type=email], select, textarea {
 
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    margin: 1.25em;
+    color: #e4e3e3;
+    border: #0077B6;
+    border-style: solid;
+    border-width: 2px;
+    display: absolute;
+    background: none;
+    padding: 10px 20px;
     cursor: pointer;
+    transform: rotate(0deg) skewX(0deg) translate(0,0);
+    transition: 0.5s;
+    box-shadow: -10px 10px 5 rgba(0,0,0,0.5);
   }
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background: linear-gradient(90deg, #00B4D8, #0077B6);
+    transform: translateY(-2px);
+    box-shadow: 0px 5px 20px #00000040;
   }
   
   /* Add a background color and some padding around the form */
