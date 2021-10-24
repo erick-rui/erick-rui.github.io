@@ -29,7 +29,8 @@ const carouselItems = range(noOfItems).map(index => (
   </SlideItem>
 ));
 
-class AutoPlayCarousel extends React.Component {
+export default class AutoPlayCarousel extends React.Component {
+
   state = {
     activeItemIndex: 0,
   };
@@ -67,5 +68,3 @@ class AutoPlayCarousel extends React.Component {
   }
 }
 
-const domContainer = document.querySelector('#carousel'); 
-ReactDOM.render(e(AutoPlayCarousel), domContainer);
