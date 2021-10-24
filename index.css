@@ -248,7 +248,7 @@ input[type=email], select, textarea {
     }
 
     #bottom-right-info {
-        background-image: url(../index/index-clip-art/book.png);
+        background-image: url(../images/placeholder.png);
         background-position: 75% 75%; /* Center the image */
         background-repeat: no-repeat; /* Do not repeat the image */
         background-size: 50%; /* Resize the background image to cover the entire container */
