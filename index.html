@@ -5,7 +5,18 @@
 	<title>Erick Ruilova | Home</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Mohave">
+  <style>
+    body {
+      font-family: "Mohave", sans-serif;
+    }
+    </style>
+
+    <!-- Fontawesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript">
@@ -52,7 +63,7 @@
 
     <section id="top">
         <div id="left-info">
-            <img src="images/placeholder.png">
+            <img src="images/headshot.png">
         </div>
         <div id="right-info">
             <h1>Hi, <br> I'm Erick</h1>
@@ -62,29 +73,77 @@
 
     <div id="clear-floats"></div>
 
-
     <div id="some_random_id"></div> 
-    <div id="carousel"></div>
-    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> 
-    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> 
-    <script type="module" src="src/my_component.js"></script>
-    <script type="module" src="src/main_page.js"></script>
-
-
- 
 
 
 
 
+<div>
+  <span class="dot"></span>
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
 
 
 
+<section id="skills">
+  <h3>Skills</h3>
+  <div id="skillsContainer">
+      <div id="skills-left-info">
+      <dl>
+        <dd>
+          <ul>
+            <li><p>Java</p>
+              <i class="fab fa-java"></i>
+                <div class="skcontainer">
+                <div class="skillBar" style="width: 85%"></div>
+              </div></li>
+            <li><p>Python</p>
+              <i class="fab fa-python"></i>
+              <div class="skcontainer">
+                <div class="skillBar" style="width: 80%"></div>
+              </div></li>
+            <li><p>HTML and CSS</p>
+              <i class="fab fa-html5"></i>
+              <div class="skcontainer">
+                <div class="skillBar" style="width: 90%"></div>
+              </div>
+            </li>
+            <li><p>JavaScript</p>
+              <i class="fab fa-js-square"></i>
+              <div class="skcontainer">
+                <div class="skillBar"  style="width: 70%"></div>
+              </div></li>
+            <li><p>React</p>
+              <i class="fab fa-react"></i>
+              <div class="skcontainer">
+                <div class="skillBar" style="width: 50%"></div>
+              </div></li>
+            
+          </ul>
+        </dd>
+      </dl>
+    </div>
+    <div id="skills-right-info">
+      
+    </div>
+  </div>
+	
+</section>
+
+<section id="projects">
+  <div id="clear-floats"></div>
 
 
+  <div id="some_random_id"></div> 
+  <div id="carousel"></div>
+  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> 
+  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> 
+  <script type="module" src="src/my_component.js"></script>
+  <script type="module" src="src/main_page.js"></script>
 
 
-
-<div class="container">
+  <div class="container">
     <h2>Slider - Multpile Items & Responsive</h2>
       <div class="row">
         <div class="col-md-12 heroSlider-fixed">
@@ -129,87 +188,82 @@
       </div>
     </div>
 
-<div>
-  <span class="dot"></span>
-  <span class="dot"></span> 
-  <span class="dot"></span> 
-</div>
 
-<section id="bottom">
-	<div id="bottom-left-info">
-	<dl>
-		<dt>Goals</dt>
-		<dd>
-			<ul>
-				<li>Increase the community's involvement in and support for the Bridgeport public schools</li>
-				<li>Strengthen communication between the educational, civic and business constituencies</li>
-				<li>Deepen awareness of excellence in our schools</li>
-				<li>Encourage and reward teacher's outstanding efforts through support for classroom projects</li>
-				<li>Develop programs and opportunities which will enrich and improve public education in Bridgeport</li>
-			</ul>
-		</dd>
-	</dl>
-	</div>
-	<div id="bottom-right-info"></div>
+
+
 </section>
 
-<div class="directory">
-	
-	<div class="row">
-		<div class="column">
-			<h1>ABOUT US</h1>
-			<ul>
-				<li><a href="../about-us/history.html">History</a></li>
-				<li><a href="../about-us/directors.html">Board of Directors</a></li>
-			</ul>
-		</div>
-		<div class="column">
-			<h1>PROGRAMS</h1>
-			<ul>
-				<li><a href="../program-events/program.html">Programs</a></li>
-				<li><a href="../program-events/events.html">Events</a></li>
-			</ul>
-		</div>
-		<div class="column">
-			<h1>CONTRIBUTORS</h1>
-			<ul>
-				<li><a href="../contributors/contributors.html">Contributors</a></li>
-				<li><a href="../contributors/partners.html">Partners</a></li>
-			</ul>
-		</div>
-	</div>
-	<div id="clear-floats"></div>
-	<div class="contactUs" id="contactUs"> 
-		
-		<div id="left-info">
-            <span class="bpef">The Bridgeport Public </span> <br>
-            446 University Avenue <br>
-            Bridgeport, CT 06604 <br>
-            BPEF: (203) 331-0551 <br>
-            MAACS: (203) 338-0517 <br>
-            Email: <a href="mailto:Fvillegas@bpef.org">Fvillegas@bpef.org</a> 
-        </div>
-		
 
-        <div id="right-info">
-            <form action="action_page.php">
+
+  <!--    <form action="action_page.php">
           
-              <input type="text" id="name" name="name" placeholder="Name..">
-              <input type="email" id="email" name="email" placeholder="Email..">
-              <input type="text" id="subject" name="subject" placeholder="Subject..">
+              <input type="text" id="name" name="name" placeholder="Name">
+              <input type="email" id="email" name="email" placeholder="Email">
+              <input type="text" id="subject" name="subject" placeholder="Subject">
               <textarea id="message" name="message" placeholder="Write something.." style="height:200px"></textarea>
               <input type="submit" value="Submit">
           
-            </form>
-          </div>
-	</div>
+            </form> -->
 
-</div>
+
+
+
+
+
+  <div id="clear-floats"></div>
+
+
+
+
+<section class="contact">
+  <div class="contactContainer">
+    <div class="content">
+      <div class="left-side">
+        <div class="address details">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="topic">Address</div>
+          <div class="text-one">Bridgeport, CT</div>
+          <div class="text-two">United States 06606</div>
+        </div>
+        <div class="phone details">
+          <i class="fas fa-phone-alt"></i>
+          <div class="topic">Phone</div>
+          <div class="text-one">+1 203 583 7034</div>
+        </div>
+        <div class="email details">
+          <i class="fas fa-envelope"></i>
+          <div class="topic">Email</div>
+          <div class="text-one">erick.123ruilova@gmail.com</div>
+          <div class="text-two">erick.ruilova@student.fairfield.edu</div>
+        </div>
+      </div>
+      <div class="right-side">
+        <div class="topic-text">Send me a message</div>
+        <p>If you have any questions for me or any types of inquiries related to my portfolio, you can send me message from here. I hope to hear from you.</p>
+      <form action="#">
+        <div class="input-box">
+          <input type="text" placeholder="Enter your name">
+        </div>
+        <div class="input-box">
+          <input type="text" placeholder="Enter your email">
+        </div>
+        <div class="input-box message-box">
+          <textarea id="message" name="message" placeholder="Write something.." style="height:100px"></textarea>
+        </div>
+        <div class="button">
+          <input type="button" value="Send Now" >
+        </div>
+      </form>
+    </div>
+    </div>
+  </div>
+</section>
+ 
 
 </main>
 
 <footer>
-	All rights reserved. All content on the site is the property of The Bridgeport Public Education Fund, Inc. <br>
+  Feel Free to Reach Out!
 </footer>
 
 <script>

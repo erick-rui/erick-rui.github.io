@@ -86,44 +86,70 @@
     display: none;
 }
 
-/* bottom */
-#bottom {
-    display: flex;
-    width: 100%;
-    height: 25em;
+/* skills */
+#skills {
+    height: 30em;
     margin-top: 0%;
     background: #252627;
     text-align: center;
-    color: #ffffff;
-    font-size: 1.5em;
+    color: #e4e3e3;
+    font-size: 1.25em;}
+    #skills h3 {font-weight: bold; font-size: 1.75em; text-align:center}
+    #skills dl {
+        padding-top: 1em;
+        padding-bottom: 1em;}
+        #skills dl dd {
+            font-style: italic;}
+            #skills dl dd ul li {
+                list-style-type: none;
+                padding: 0.45em;}
+
+#skillsContainer{
+    display: flex;
+    width: 100%;
+
 }
 
-#bottom-left-info {
-    margin-top: 3.1em;
+#skills-left-info {
+    margin-top: 2.1em;
     margin-left: 2em;
     margin-right: 1em;
     float: left;
     width: 50%;}
-    #bottom-left-info dl {
-        padding-top: 1em;
-        padding-bottom: 1em;}
-        #bottom-left-info dl dt {
-            font-weight: bold;
-            font-size: 1.75em; }
-        #bottom-left-info dl dd {
-            font-style: italic;}
-            #bottom-left-info dl dd ul li {
-                list-style-type: none;
-                padding: 0.45em;}
+    
 
-#bottom-right-info {
+#skills-right-info {
+    margin-top: 2.1em;
+    margin-left: 1em;
+    margin-right: 2em;
     float: right;
     width: 50%;
-    background-image: url(../index/index-clip-art/book.png);
-    background-position: 75% 75%; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
-    background-size: 50%; /* Resize the background image to cover the entire container */
+
 }
+
+/* Make sure that padding behaves as expected */
+* {box-sizing:border-box}
+
+/* Container for skill bars */
+.skcontainer {
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  border-radius: 15px;
+  height: 10px;
+  margin-top: 0.25em;
+
+
+}
+
+.skillBar {
+  text-align: right; /* Right-align text */
+  padding-top: 5px; /* Add top padding */
+  padding-bottom: 5px; /* Add bottom padding */
+  color: white; /* White text color */
+  border-radius: 15px;
+  background: linear-gradient(90deg, #00B4D8, #0077B6);
+}
+
 
 
 
@@ -178,7 +204,6 @@ input[type=email], select, textarea {
   /* Add a background color and some padding around the form */
   .container {
     border-radius: 5px;
-    background-color: #f2f2f280;
     padding: 20px;
   }
 
@@ -192,9 +217,9 @@ input[type=email], select, textarea {
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
     font-size: 12px;
-    background: #eef2f3;
+    background: #c8e8e9;
 }
 
 .clear-floats {
@@ -217,9 +242,11 @@ nav {
 nav.shrink {
     height: 75px;
     background: #0077B6;
-    color: #ffffff;
-    transition: all ease .5s;
-}
+    transition: all ease .2s;
+    color: #ffffff;}
+    nav.shrink .menu a {
+        color: #ffffff;
+    }
 
 .logoHeading { 
     width: 10%; 
@@ -261,6 +288,7 @@ header nav h1 {
 .menu a {
     text-decoration: none;
     color: #696969;
+    cursor: pointer;
 }
 
 .menu a:hover {
@@ -344,7 +372,7 @@ header nav h1 {
 
 /* bottom of pages */
 .directory {
-    background-color: #e4e3e3;
+    background: #c8e8e9;
     color: #696969;
     border-bottom: #000000 solid 2px;
     border-top: #000000 solid 2px;
@@ -426,6 +454,19 @@ footer {
     padding-bottom: 5px;
     font-style: italic;
 }
+
+.projects{
+    background: #c8e8e9;
+}
+
+
+
+
+
+
+
+
+
 
 
 
