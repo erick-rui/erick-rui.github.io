@@ -2,7 +2,7 @@ import AutoPlayCarousel from '/imgcrsl.jsx';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
-
+const e = React.createElement; 
 export class MyPage extends React.Component{
   render(){
     const responsive = {
@@ -51,4 +51,4 @@ export class MyPage extends React.Component{
 }
 
 const domContainer = document.querySelector('#carousel'); 
-ReactDOM.render(<MyPage />,domContainer);
+ReactDOM.render(e(MyPage),domContainer);
