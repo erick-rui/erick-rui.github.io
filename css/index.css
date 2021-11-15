@@ -226,6 +226,10 @@ body {
     float: both;
 }
 
+section {
+    padding: 50px;
+}
+
 /* navigation */
 nav {
     width: 100%; 
@@ -459,6 +463,13 @@ footer {
     background: #c8e8e9;
 }
 
+section .title {
+    position: relative;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 500;
+    padding-top: 20px;
+}
 
 
 
