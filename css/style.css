@@ -72,10 +72,7 @@ img {
   align-items: center;
   justify-content: center;
 }
-.contact h2{
-  flex: 0 0 100%;
-  margin-bottom: -200px;
-}
+
 .contactContainer{
   width: 85%;
   background: #fff;
