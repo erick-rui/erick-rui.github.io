@@ -68,8 +68,13 @@ img {
   width: 100%;
   background: #c8e8e9;
   display: flex;
+  flex-wrap:wrap;
   align-items: center;
   justify-content: center;
+}
+.contact h2{
+  flex: 0 0 100%;
+  margin-bottom: -200px;
 }
 .contactContainer{
   width: 85%;
