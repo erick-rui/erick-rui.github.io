@@ -1,0 +1,75 @@
+/* skills */
+#skills {
+    min-height: 75vh;
+    margin-top: 0%;
+    background: #252627;
+    text-align: center;
+    color: #e4e3e3;
+    font-size: 1.25em;
+    padding-top: 5%;}
+    #skills h3 {font-weight: bold; font-size: 2em; text-align:center}
+    #skills dl {
+        padding-top: 1em;
+        padding-bottom: 1em;}
+        #skills dl dd {
+            text-align: left;}
+            #skills dl dd ul li {
+                list-style-type: none;
+                padding: 0.45em;}
+                #skills dl dd ul li p{
+                    padding-left: 1em;
+                }
+
+#skillsContainer{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px auto;}
+    #skillsContainer .cardContainer{
+        margin:auto;
+        color:black;
+    }
+
+.skBars{
+    height: 200px;
+}
+
+.skHeader {
+    text-align: left;
+    padding: 20px;
+    box-shadow: 0px 0 10px rgba(0, 0, 0, 0.2);
+    display: flex;}
+    .skHeader i{
+        text-align: left;
+        font-size: 60px;
+        font-weight: 600;
+        color: #3e2093;
+        padding-right: 10px;}
+    .skHeader h2{
+        text-align: left;
+        font-size: 23px;
+        font-weight: 600;
+        color: #3e2093;
+        padding-bottom: 0.25em;
+}
+/* Container for skill bars */
+.skcontainer {
+    width: 100%; /* Full width */
+    background-color: #ddd; /* Grey background */
+    border-radius: 15px;
+    height: 20px;
+    margin-top: 0.25em;
+  
+  
+  }
+  
+  .skillBar {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+    border-radius: 15px;
+    background: linear-gradient(90deg, #00B4D8, #0077B6);
+  }
