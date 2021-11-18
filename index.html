@@ -35,6 +35,16 @@
 		  });
 		});
 	</script>
+  <script>/* Open when someone clicks on the span element */
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    /* Close when someone clicks on the "x" symbol inside the overlay */
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+  </script>
 
 
 
@@ -56,7 +66,25 @@
 			</ul>
 		</div>
 		<div class="mobile-menu">
-			<i class="fas fa-bars"></i>
+                  <!-- The overlay -->
+          <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times; </a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+              <a href="#about" onclick="closeNav()">About</a>
+              <a href="#skills" onclick="closeNav()">Skills</a>
+              <a href="#projects" onclick="closeNav()">Projects</a>
+              <a href="#contact" onclick="closeNav()">Contact</a>
+            </div>
+
+          </div>
+
+          <!-- Use any element to open/show the overlay navigation menu -->
+          <span onclick="openNav()"><i class="fas fa-bars"></i></span>
+
 		</div>
 	</nav>
 </header>	
