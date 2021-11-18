@@ -35,6 +35,10 @@
         flex-direction: column;
         justify-content: space-between;
         text-align: center; }
+        .projectContent .cardContainer{
+            min-width: 60vw;
+            margin-bottom: 30px;
+        }
         
 
 }
