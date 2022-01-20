@@ -171,7 +171,11 @@ body {
 
 section {
     padding: 50px;
-}
+    min-height: 75vh;
+    text-align: center;
+    font-size: 1.25em;} 
+    section h3{
+        font-weight: bold; font-size: 2em; text-align:center; color: #e4e3e3;}
 
 /* navigation */
 nav {

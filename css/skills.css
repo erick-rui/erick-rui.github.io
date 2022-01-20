@@ -2,12 +2,11 @@
 #skills {
     min-height: 75vh;
     margin-top: 0%;
-    background: #252627;
+    background: hsl(210, 3%, 15%);
     text-align: center;
     color: #e4e3e3;
     font-size: 1.25em;
     padding-top: 5%;}
-    #skills h3 {font-weight: bold; font-size: 2em; text-align:center}
     #skills dl {
         padding-top: 1em;
         padding-bottom: 1em;}

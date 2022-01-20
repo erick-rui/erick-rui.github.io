@@ -5,6 +5,7 @@
 	<title>Erick Ruilova | Home</title>
 	
 	<link rel="stylesheet" type="text/css" href="css/index.css">
+  <link rel="stylesheet" type="text/css" href="css/about.css">
   <link rel="stylesheet" type="text/css" href="css/style.css">
   <link rel="stylesheet" type="text/css" href="css/projects.css">
   <link rel="stylesheet" type="text/css" href="css/skills.css">
@@ -45,6 +46,13 @@
       document.getElementById("myNav").style.width = "0%";
     }
   </script>
+      <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+  <script src="script.js"></script>
 
 
 
@@ -96,8 +104,9 @@
             <img src="images/headshot.png">
         </div>
         <div id="right-info">
-            <h1>Hi, <br>I'm Erick👋 </h1>
-            <a ><button>CONTACT ME</button></a>
+            <h1>Hi, <br>I'm Erick👋 <br><div class="text-3"><span class="typing"></span></div> </h1>
+            
+            <a href="#contact"><button>CONTACT ME</button></a>
         </div>
     </section>
 
@@ -108,7 +117,15 @@
 
 
 <section id="about">
-
+  <div>
+    <h3>About me</h3>
+    <p>Currently, I am a student at Fairfield University persuing a B.S. of Computer Science. I enjoy the critical thinking and iterative process
+      developing software. In the future I would like to start my career as a full-stack web developer, and eventually become a data scientist.
+      I enjoy learning and consider myself a lifelong learner interested in a variety of topics: Machine and Deep Learning,
+      Computer Science, Software Engineering, Fitness, Automotives and so on.
+    </p>
+    <a href="ErickRuilovaResume.docx"><button>MY RESUME</button></a>
+  </div>
 </section>
 
 <section id="skills">
@@ -232,15 +249,7 @@
 <section id="projects">
   <div id="clear-floats"></div>
 
-
-  <div id="some_random_id"></div> 
-  <div id="carousel"></div>
-  <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script> 
-  <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script> 
-  <script type="module" src="src/my_component.js"></script>
-  <script type="module" src="src/projectCarousel.js"></script>
-
-  <h2 class="title">PROJECTS</h2>
+  <h3>Projects</h3>
   <div class="projectContent">
     <div class="cardContainer">
       <div class=imgContainer><img src="images/rock-paper-scissors.png"></div>
@@ -254,18 +263,18 @@
     <div class="cardContainer">
       <div class=imgContainer><img src="images/chatbot.png"></div>
       <div class="projectDescription">
-        <h2>AI Rock Paper Scissor Game</h2>
-        <p>This is a computer vision project involving the classic rock paper scissors game. This program
-          takes an image input and uses a Convolution Neural Network to determine the hand gesture. 
+        <h2>Python Chatbot</h2>
+        <p>This is a simple chatbot built with Python. The chatbot takes breakfast related questions/inquiries and gives
+          relevant answers.
         </p>
       </div>
     </div>
     <div class="cardContainer">
       <img src="images/hangman.jpeg">
       <div class="projectDescription">
-        <h2>AI Rock Paper Scissor Game</h2>
-        <p>This is a computer vision project involving the classic rock paper scissors game. This program
-          takes an image input and uses a Convolution Neural Network to determine the hand gesture. 
+        <h2>Hangman with Spellcheck</h2>
+        <p>This is a simple hangman game built with Java with a built in spellcheck. It takes a user input and uses
+          well-known search algorithms to display a rudimentary spellcheck.
         </p>
       </div>
     </div> 
