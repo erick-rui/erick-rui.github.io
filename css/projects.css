@@ -119,6 +119,12 @@
             min-width: 60vw;
             margin-bottom: 30px;
         }
-        
+    
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        padding-top: 0;
+        }
+
 
 }
